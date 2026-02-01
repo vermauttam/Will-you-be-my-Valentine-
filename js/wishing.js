@@ -9,7 +9,7 @@
 
 window.addEventListener('load', function() {
     const audio = document.createElement('audio');
-    audio.src = '/Will you/audio/bubu_ataaata.mp3'; // path to your uploaded mp3
+    audio.src = 'audio/bubu_ataaata.mp3'; // path to your uploaded mp3
     audio.autoplay = true;
     audio.loop = true; // loop the music
     audio.volume = 0.5; // optional: set volume to 50%
