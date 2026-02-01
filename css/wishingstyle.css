@@ -1,0 +1,132 @@
+/* #wish {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    padding-top: 0%;
+}
+
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+
+}
+
+.balloons {
+    height: 500px;
+    align-items: center;
+} */
+
+
+/* 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 80%;                    
+    max-width: 1000px;              
+}
+
+.balloons {
+    height: 500px;
+}
+
+#wish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    gap: 10px;               
+}
+
+#wish img {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main_div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .balloons {
+        height: 300px;
+    }
+    #wish img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+ */
+
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between; /* balloons left & right, images in center */
+    align-items: center;
+    width: 70%;       /* slightly smaller row */
+    max-width: 800px; /* overall row width */
+}
+
+.balloons {
+    height: 250px;    /* smaller balloons */
+}
+
+#wish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center images vertically */
+    align-items: center;     /* center images horizontally */
+    gap: 5px;                /* small spacing between wish images */
+}
+
+#wish img {
+    max-width: 200px;   /* smaller images */
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 600px) {
+    .main_div {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .balloons {
+        height: 150px;
+    }
+    #wish img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+
+
